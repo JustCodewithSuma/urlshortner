@@ -13,3 +13,14 @@ The service provides the followinf REST Services:
   GET   : Redirects to the original Long URL 
   
   DELETE: Delete ShortURL based on the ID´s.
+
+How to use: 
+
+git clone https://github.com/JustCodewithSuma/urlshortner.git 
+
+- Make sure you have access to local or H2 DB.
+- Open project in your favorite editor and change application.yaml file to point to your H2 database
+- Build Spring project
+- Open localhost:8080/swagger-ui.html to see endpoints.
+
+
