@@ -13,6 +13,9 @@ java {
 	}
 }
 
+bootJar{
+	archiveFileName = 'short-url-app.jar'
+}
 configurations {
 	compileOnly {
 		extendsFrom annotationProcessor
