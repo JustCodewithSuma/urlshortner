@@ -1,8 +1,6 @@
-version: '3'
-
 services:
-
-  myapp-main:
-    network_mode: host
-
-      
+  server:
+    build:
+      context: .
+    ports:
+      - 8080:8080
